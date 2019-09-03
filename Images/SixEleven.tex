@@ -1,0 +1,105 @@
+%6-11 diagram
+\begin{figure}[ht!]
+\centering
+
+\begin{tikzpicture}[squarednode/.style={rectangle, 
+					rounded corners, 
+					very thick,
+ 					minimum width=3cm,
+					minimum height=1cm,
+					draw=black!80, 
+					fill=red!10},
+					squarednode2/.style={rectangle, 
+					rounded corners, 
+					very thick,
+ 					minimum width=3cm,
+					minimum height=1cm,
+					draw=black!80, 
+					fill=blue!10}
+					]
+					
+% To reduce all image, transform canvas
+% forgets about image size, so 
+% we need a bounding box
+% This is lame, but works with Eduardo Thesis´s image (now black and white for elegance)
+
+% don´t ask me about theses limits
+% I just tried until I found which ones
+%workded
+
+\useasboundingbox (3,-8) rectangle (8,8);
+\scope[transform canvas={scale=1}]
+         % Your actual drawing
+
+
+%emotion nodes
+\node[squarednode]  (emo1) [anchor = west, yshift = 7cm ] {Fear};
+\node[squarednode]  (emo2) [below of = emo1, node distance=2cm, anchor=north] {Anger};
+\node[squarednode]  (emo3) [below of = emo2, node distance=2cm, anchor=north] {Pride};
+\node[squarednode]  (emo4) [below of = emo3, node distance=2cm, anchor=north] {Excitement};
+\node[squarednode]  (emo5) [below of = emo4, node distance=2cm, anchor=north] {Sadness};
+\node[squarednode]  (emo6) [below of = emo5, node distance=2cm, anchor=north] {Joy};
+
+% instinct nodes
+\node[squarednode2]  (inst1) [right of = emo1, node distance = 6cm, anchor = west, yshift = 1.5cm]{Survival};
+\node[squarednode2]  (inst2) [below of = inst1, node distance=1cm, anchor=north] {Identification};
+\node[squarednode2]  (inst3) [below of = inst2, node distance=1cm, anchor=north] {Collecting};
+\node[squarednode2]  (inst4) [below of = inst3, node distance=1cm, anchor=north] {Greed};
+\node[squarednode2]  (inst5) [below of = inst4, node distance=1cm, anchor=north] {Aggressiveness};
+\node[squarednode2]  (inst6) [below of = inst5, node distance=1cm, anchor=north] {Revenge};
+\node[squarednode2]  (inst7) [below of = inst6, node distance=1cm, anchor=north] {Competition};
+\node[squarednode2]  (inst8) [below of = inst7, node distance=1cm, anchor=north] {Protection/Care};
+\node[squarednode2]  (inst9) [below of = inst8, node distance=1cm, anchor=north] {Curiosity};
+\node[squarednode2]  (inst10) [below of = inst9, node distance=1cm, anchor=north] {Communication};
+\node[squarednode2]  (inst11) [below of = inst10, node distance=1cm, anchor=north] {Color Appreciation};
+
+% Arrows Emo to Inst
+\path[-latex, black, very thick] (emo1.east) edge  coordinate[midway](c_to_m) (inst1.west);
+
+\path[-latex, black, very thick] (emo2.east) edge  coordinate[midway](c_to_m) (inst5.west);
+
+\path[-latex, black, very thick] (emo2.east) edge  coordinate[midway](c_to_m) (inst6.west);
+
+\path[latex'-latex', black, very thick] (emo3.east) edge  coordinate[midway](c_to_m) (inst7.west);
+
+%arrows Inst to Emo
+%survival
+\path[-latex, dashed, black, very thick] (inst1.west) edge  coordinate[midway](c_to_m) (emo2.east);
+\path[-latex, dashed, black, very thick] (inst1.west) edge  coordinate[midway](c_to_m) (emo5.east);
+%Identification
+\path[-latex, dashed, black, very thick] (inst2.west) edge  coordinate[midway](c_to_m) (emo1.east);
+\path[-latex, dashed, black, very thick] (inst2.west) edge  coordinate[midway](c_to_m) (emo2.east);
+\path[-latex, dashed, black, very thick] (inst2.west) edge  coordinate[midway](c_to_m) (emo3.east);
+\path[-latex, dashed, black, very thick] (inst2.west) edge  coordinate[midway](c_to_m) (emo4.east);
+\path[-latex, dashed, black, very thick] (inst2.west) edge  coordinate[midway](c_to_m) (emo5.east);
+%Collecting
+\path[-latex, dashed, black, very thick] (inst3.west) edge  coordinate[midway](c_to_m) (emo3.east);
+%Greed
+\path[-latex, dashed, black, very thick] (inst4.west) edge  coordinate[midway](c_to_m) (emo4.east);
+%agressivenes
+\path[-latex, dashed, black, very thick] (inst5.west) edge  coordinate[midway](c_to_m) (emo4.east);
+%revenge
+\path[-latex, dashed, black, very thick] (inst6.west) edge  coordinate[midway](c_to_m) (emo4.east);
+% Competition
+\path[-latex, dashed, black, very thick] (inst7.west) edge  coordinate[midway](c_to_m) (emo4.east);
+\path[-latex, dashed, black, very thick] (inst7.west) edge  coordinate[midway](c_to_m) (emo2.east);
+%Protection/care
+\path[-latex, dashed, black, very thick] (inst8.west) edge  coordinate[midway](c_to_m) (emo2.east);
+\path[-latex, dashed, black, very thick] (inst8.west) edge  coordinate[midway](c_to_m) (emo3.east);
+\path[-latex, dashed, black, very thick] (inst8.west) edge  coordinate[midway](c_to_m) (emo5.east);
+\path[-latex, dashed, black, very thick] (inst8.west) edge  coordinate[midway](c_to_m) (emo6.east);
+%curiosity
+\path[-latex, dashed, black, very thick] (inst9.west) edge  coordinate[midway](c_to_m) (emo1.east);
+\path[-latex, dashed, black, very thick] (inst9.west) edge  coordinate[midway](c_to_m) (emo4.east);
+%communication
+\path[-latex, dashed, black, very thick] (inst10.west) edge  coordinate[midway](c_to_m) (emo4.east);
+\path[-latex, dashed, black, very thick] (inst10.west) edge  coordinate[midway](c_to_m) (emo6.east);
+%color apreciation
+\path[-latex, dashed, black, very thick] (inst11.west) edge  coordinate[midway](c_to_m) (emo6.east);
+
+
+    \endscope
+\end{tikzpicture}
+\caption{6-11 model Diagram}
+\label{fig:611_diag}
+\end{figure}

@@ -1,0 +1,85 @@
+\begin{figure}[h]
+\begin{adjustwidth}{-1.5cm}{}
+    \centering
+    \pgfplotstableread{
+Question    Average
+1   4,23
+2   3,82
+3   4,36
+4	4,32
+5	4,50
+6	3,50
+7	3,68
+8	3,73
+9	2,55
+10	3,50
+11	3,86
+12	3,64
+13	3,18
+
+}\mytable
+
+\pgfplotstabletranspose[string type,
+    colnames from=Question,
+    input colnames to=Question]\mynewtable{\mytable}
+    
+\pgfplotstabletypeset[string type]{\mynewtable}
+\newline
+\vspace*{0.01 cm}
+\newline
+    \pgfplotstableread{
+Question    Average
+
+14	4,05
+15	4,00
+16	3,27
+17	2,55
+18	4,55
+19	2,86
+20	4,00
+21	3,45
+22	3,09
+23	3,68
+24	3,32
+25	4,00
+26	4,32
+27	4,45
+
+}\mytable
+
+\pgfplotstabletranspose[string type,
+    colnames from=Question,
+    input colnames to=Question]\mynewtable{\mytable}
+    
+\pgfplotstabletypeset[string type]{\mynewtable}
+\newline
+\vspace*{0.01 cm}
+\newline
+    \pgfplotstableread{
+Question    Average
+
+28	4,41
+29	4,14
+30	3,14
+31	2,18
+32	2,09
+33	2,50
+34	3,14
+35	4,00
+36	3,82
+37	3,00
+38	2,18
+39	2,27
+40	3,77
+}\mytable
+
+\pgfplotstabletranspose[string type,
+    colnames from=Question,
+    input colnames to=Question]\mynewtable{\mytable}
+    
+\pgfplotstabletypeset[string type]{\mynewtable}
+
+    \caption{Survey averages for industry}
+    \label{tab:SurveyIndustry}
+\end{adjustwidth}
+\end{figure}

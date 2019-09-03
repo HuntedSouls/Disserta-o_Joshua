@@ -1,0 +1,500 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@Article{Abdi2007,
+  Title                    = {The {Kendall} rank correlation coefficient},
+  Author                   = {Abdi, Hervé},
+  Journal                  = {Encyclopedia of Measurement and Statistics. Sage, Thousand Oaks, CA},
+  Year                     = {2007},
+  Pages                    = {508--510}
+}
+
+@Article{Abuhamdeh2014,
+  Title                    = {Enjoying the possibility of defeat: {Outcome} uncertainty, suspense, and intrinsic motivation},
+  Author                   = {Abuhamdeh, Sami and Csikszentmihalyi, Mihaly and Jalal, Baland},
+  Journal                  = {Motivation and Emotion},
+  Year                     = {2014},
+
+  Month                    = sep,
+  Pages                    = {1--10},
+
+  Doi                      = {10.1007/s11031-014-9425-2},
+  ISSN                     = {0146-7239, 1573-6644},
+  Language                 = {en},
+  Shorttitle               = {Enjoying the possibility of defeat},
+  Urldate                  = {2014-11-04}
+}
+
+@Book{Althofer2003,
+  Title                    = {Computer-aided game inventing},
+  Author                   = {Althofer, Ingo},
+  Year                     = {2003}
+}
+
+@Misc{Quality2015,
+  Title                    = {Quality {Glossary} - {Q} - {ASQ}},
+
+  Author                   = {{American Society for Quality}},
+  Year                     = {2015},
+
+  Url                      = {http://asq.org/glossary/q.html},
+  Urldate                  = {2016-02-11}
+}
+
+@InProceedings{Bakker2011,
+  Title                    = {Emotions in {Business} {Game}: {Case} {Study} in {Desafio} {Sebrae}},
+  Author                   = {de Bakker, Andre R. and de M Pacheco, Bernardo and DIpolitto, Claudio and Xexéo, Geraldo and de Souza, Jano},
+  Booktitle                = {Games and {Digital} {Entertainment} ({SBGAMES}), 2011 {Brazilian} {Symposium} on},
+  Year                     = {2011},
+  Pages                    = {141--147},
+  Publisher                = {IEEE},
+
+  Shorttitle               = {Emotions in {Business} {Game}},
+  Urldate                  = {2016-01-11}
+}
+
+@Article{Bateman2015,
+  Title                    = {Implicit {Game} {Aesthetics}},
+  Author                   = {Bateman, C.},
+  Journal                  = {Games and Culture},
+  Year                     = {2015},
+
+  Month                    = jul,
+  Number                   = {4},
+  Pages                    = {389--411},
+  Volume                   = {10},
+
+  Doi                      = {10.1177/1555412014560607},
+  ISSN                     = {1555-4120, 1555-4139},
+  Language                 = {en},
+  Urldate                  = {2015-11-04}
+}
+
+@Article{Belohlavek2002,
+  Title                    = {On the capability of fuzzy set theory to represent concepts},
+  Author                   = {Bělohlávek, Radim and Klir, George J. and Lewis, Harold W. and Way, Eileen},
+  Journal                  = {International Journal of General Systems},
+  Year                     = {2002},
+  Number                   = {6},
+  Pages                    = {569--585},
+  Volume                   = {31},
+
+  __markedentry            = {[mangeli:]}
+}
+
+@Article{Browne2012,
+  Title                    = {Elegance in {Game} {Design}},
+  Author                   = {Browne, C.},
+  Journal                  = {IEEE Transactions on Computational Intelligence and AI in Games},
+  Year                     = {2012},
+
+  Month                    = sep,
+  Number                   = {3},
+  Pages                    = {229--240},
+  Volume                   = {4},
+
+  Doi                      = {10.1109/TCIAIG.2012.2197621},
+  ISSN                     = {1943-068X}
+}
+
+@PhdThesis{Browne2008,
+  Title                    = {Automatic generation and evaluation of recombination games},
+  Author                   = {Browne, Cameron},
+  School                   = {Queensland University of Technology},
+  Year                     = {2008},
+
+  Url                      = {http://core.ac.uk/download/pdf/10885627.pdf},
+  Urldate                  = {2015-10-30}
+}
+
+@Article{Browne2010,
+  Title                    = {Evolutionary {Game} {Design}},
+  Author                   = {Browne, C. and Maire, F.},
+  Journal                  = {IEEE Transactions on Computational Intelligence and AI in Games},
+  Year                     = {2010},
+
+  Month                    = mar,
+  Number                   = {1},
+  Pages                    = {1--16},
+  Volume                   = {2},
+
+  Doi                      = {10.1109/TCIAIG.2010.2041928},
+  ISSN                     = {1943-068X}
+}
+
+@Article{Brunnstroem2013,
+  Title                    = {Qualinet white paper on definitions of quality of experience},
+  Author                   = {Brunnström, Kjell and Beker, Sergio Ariel and De Moor, Katrien and Dooms, Ann and Egger, Sebastien and Garcia, Marie-Neige and Hossfeld, Tobias and Jumisko-Pyykkö, Satu and Keimel, Christian and Larabi, Mohamed-Chaker and {others}},
+  Year                     = {2013}
+}
+
+@Book{Caillois1961,
+  Title                    = {Man, play, and games},
+  Author                   = {Caillois, Roger},
+  Publisher                = {University of Illinois Press},
+  Year                     = {1961},
+
+  Translator               = {Barash, Meyer},
+  Urldate                  = {2015-10-29}
+}
+
+@Article{Campbell2002,
+  Title                    = {Deep {Blue}},
+  Author                   = {Campbell, Murray and Hoane Jr., A. Joseph and Hsu, Feng-hsiung},
+  Journal                  = {Artificial Intelligence},
+  Year                     = {2002},
+
+  Month                    = jan,
+  Number                   = {1–2},
+  Pages                    = {57--83},
+  Volume                   = {134},
+
+  Doi                      = {10.1016/S0004-3702(01)00129-1},
+  ISSN                     = {0004-3702},
+  Keywords                 = {Computer chess, Evaluation function, Game tree search, Parallel search, Search extensions, Selective search},
+  Urldate                  = {2015-10-29}
+}
+
+@InProceedings{Chan2008,
+  Title                    = {Digital game ontology: {Semantic} web approach on enhancing game studies},
+  Author                   = {Chan, Jupiter TC and Yuen, Wilson YF},
+  Booktitle                = {9th {International} {Conference} on {Computer}-{Aided} {Industrial} {Design} and {Conceptual} {Design}},
+  Year                     = {2008},
+
+  Shorttitle               = {Digital game ontology}
+}
+
+@Article{Clauset2015,
+  Title                    = {Safe leads and lead changes in competitive team sports},
+  Author                   = {Clauset, A. and Kogan, M. and Redner, S.},
+  Journal                  = {Physical Review E},
+  Year                     = {2015},
+  Number                   = {6},
+  Pages                    = {062815},
+  Volume                   = {91}
+}
+
+@Book{Costikyan2013,
+  Title                    = {Uncertainty in games},
+  Author                   = {Costikyan, Greg},
+  Publisher                = {Mit Press},
+  Year                     = {2013}
+}
+
+@Book{DeKoven2013,
+  Title                    = {The well-played game: {A} player's philosophy},
+  Author                   = {De Koven, Bernard},
+  Publisher                = {MIT Press},
+  Year                     = {2013},
+
+  Shorttitle               = {The well-played game},
+  Urldate                  = {2016-01-27}
+}
+
+@Book{Fernandez-Vara2014,
+  Title                    = {Introduction to {Game} {Analysis}},
+  Author                   = {Fernández-Vara, Clara},
+  Publisher                = {Routledge},
+  Year                     = {2014},
+
+  Urldate                  = {2016-02-11}
+}
+
+@Book{Grundy1997,
+  Title                    = {Women, work and computerization: {Spinning} a web from past to future},
+  Author                   = {Grundy, A. Frances},
+  Publisher                = {Springer Science \& Business Media},
+  Year                     = {1997},
+  Volume                   = {6},
+
+  Shorttitle               = {Women, work and computerization}
+}
+
+@Book{Hirschheim1995,
+  Title                    = {Information systems development and data modeling: conceptual and philosophical foundations},
+  Author                   = {Hirschheim, Rudy and Klein, Heinz K. and Lyytinen, Kalle},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1995},
+
+  Shorttitle               = {Information systems development and data modeling}
+}
+
+@Book{Huizinga1949,
+  Title                    = {Homo {Ludens} : {A} {Study} of the {Play}-{Element} in {Culture}},
+  Author                   = {Huizinga, Johan},
+  Publisher                = {Routledge \& Kengan Paul},
+  Year                     = {1949}
+}
+
+@InProceedings{Hunicke2004,
+  Title                    = {{MDA}: {A} formal approach to game design and game research},
+  Author                   = {Hunicke, Robin and LeBlanc, Marc and Zubek, Robert},
+  Booktitle                = {Proceedings of the {AAAI} {Workshop} on {Challenges} in {Game} {AI}},
+  Year                     = {2004},
+  Volume                   = {4},
+
+  Shorttitle               = {{MDA}},
+  Urldate                  = {2015-12-14}
+}
+
+@InCollection{Iida2004,
+  Title                    = {An {Application} of {Game}-{Refinement} {Theory} to {Mah} {Jong}},
+  Author                   = {Iida, Hiroyuki and Takahara, Kazutoshi and Nagashima, Jun and Kajihara, Yoichiro and Hashimoto, Tsuyoshi},
+  Booktitle                = {Entertainment {Computing} – {ICEC} 2004},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2004},
+
+  Address                  = {Berlin, Heidelberg},
+  Editor                   = {Hutchison, David and Kanade, Takeo and Kittler, Josef and Kleinberg, Jon M. and Mattern, Friedemann and Mitchell, John C. and Naor, Moni and Nierstrasz, Oscar and Pandu Rangan, C. and Steffen, Bernhard and Sudan, Madhu and Terzopoulos, Demetri and Tygar, Dough and Vardi, Moshe Y. and Weikum, Gerhard and Rauterberg, Matthias},
+  Pages                    = {333--338},
+  Volume                   = {3166},
+
+  ISBN                     = {978-3-540-22947-6 978-3-540-28643-1},
+  Urldate                  = {2016-01-15}
+}
+
+@Misc{ISO/IEC,
+  Title                    = {{ISO}/{IEC} 25010:2011 - {Systems} and software engineering -- {Systems} and software {Quality} {Requirements} and {Evaluation} ({SQuaRE}) -- {System} and software quality models},
+
+  Author                   = {ISO/IEC},
+  Year                     = {2011},
+
+  Url                      = {http://www.iso.org/iso/catalogue_detail.htm?csnumber=35733}
+}
+
+@Book{Jaervinen2008,
+  Title                    = {Games without {Frontiers}: {Theories} and {Methods} for {Game} {Studies} and {Design}},
+  Author                   = {Järvinen, Aki},
+  Publisher                = {Tampere University Press},
+  Year                     = {2008},
+
+  ISBN                     = {978-951-44-7252-7},
+  Language                 = {en},
+  Shorttitle               = {Games without {Frontiers}},
+  Url                      = {http://tampub.uta.fi/handle/10024/67820},
+  Urldate                  = {2016-02-06}
+}
+
+@Book{Juran2010,
+  Title                    = {Juran's {Quality} {Handbook}: {The} {Complete} {Guide} to {Performance} {Excellence} 6/e},
+  Author                   = {Juran, Joseph M. and De Feo, Joseph A.},
+  Publisher                = {McGraw-Hill Education},
+  Year                     = {2010},
+
+  Address                  = {New York},
+  Edition                  = {6 edition},
+  Month                    = jun,
+
+  ISBN                     = {978-0-07-162973-7},
+  Language                 = {English},
+  Shorttitle               = {Juran's {Quality} {Handbook}}
+}
+
+@Book{Klir1995,
+  Title                    = {Fuzzy sets and fuzzy logic},
+  Author                   = {Klir, George and Yuan, Bo},
+  Publisher                = {Prentice hall New Jersey},
+  Year                     = {1995},
+  Volume                   = {4}
+}
+
+@Book{Koster2013,
+  Title                    = {Theory of fun for game design},
+  Author                   = {Koster, Raph},
+  Publisher                = {" O'Reilly Media, Inc."},
+  Year                     = {2013}
+}
+
+@Book{Laudon2011,
+  Title                    = {Essentials of management information systems},
+  Author                   = {Laudon, Kenneth C. and Laudon, Jane Price and {others}},
+  Publisher                = {Pearson Upper Saddle River},
+  Year                     = {2011},
+
+  Urldate                  = {2016-02-06}
+}
+
+@Article{Malaby2007,
+  Title                    = {Beyond play a new approach to games},
+  Author                   = {Malaby, Thomas M.},
+  Journal                  = {Games and culture},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {95--113},
+  Volume                   = {2},
+
+  Urldate                  = {2016-01-30}
+}
+
+@InCollection{Meskanen2006,
+  Title                    = {Distance from consensus: {A} theme and variations},
+  Author                   = {Meskanen, Tommi and Nurmi, Hannu},
+  Booktitle                = {Mathematics and {Democracy}},
+  Publisher                = {Springer},
+  Year                     = {2006},
+  Pages                    = {117--132},
+
+  Shorttitle               = {Distance from consensus},
+  Urldate                  = {2016-01-12}
+}
+
+@InProceedings{Moller2013,
+  Title                    = {Gaming taxonomy: {An} overview of concepts and evaluation methods for computer gaming {QoE}},
+  Author                   = {Moller, S. and Schmidt, S. and Beyer, J.},
+  Booktitle                = {2013 {Fifth} {International} {Workshop} on {Quality} of {Multimedia} {Experience} ({QoMEX})},
+  Year                     = {2013},
+  Month                    = jul,
+  Pages                    = {236--241},
+
+  Doi                      = {10.1109/QoMEX.2013.6603243},
+  Shorttitle               = {Gaming taxonomy}
+}
+
+@Book{Newborn2012,
+  Title                    = {Kasparov versus {Deep} {Blue}: {Computer} chess comes of age},
+  Author                   = {Newborn, Monty},
+  Publisher                = {Springer Science \& Business Media},
+  Year                     = {2012},
+
+  Shorttitle               = {Kasparov versus {Deep} {Blue}}
+}
+
+@Article{Pal1999,
+  Title                    = {On quantification of different facets of uncertainty},
+  Author                   = {Pal, Nikhil R.},
+  Journal                  = {Fuzzy Sets and Systems},
+  Year                     = {1999},
+  Number                   = {1},
+  Pages                    = {81--91},
+  Volume                   = {107}
+}
+
+@Book{Ross2009,
+  Title                    = {Fuzzy logic with engineering applications},
+  Author                   = {Ross, Timothy J.},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2009},
+
+  __markedentry            = {[mangeli:6]}
+}
+
+@Book{Salen2004,
+  Title                    = {Rules of play: {Game} design fundamentals},
+  Author                   = {Salen, Katie and Zimmerman, Eric},
+  Publisher                = {MIT press},
+  Year                     = {2004},
+
+  Shorttitle               = {Rules of play},
+  Urldate                  = {2015-11-06}
+}
+
+@Book{Schell2014,
+  Title                    = {The {Art} of {Game} {Design}: {A} book of lenses},
+  Author                   = {Schell, Jesse},
+  Publisher                = {CRC Press},
+  Year                     = {2014},
+
+  Shorttitle               = {The {Art} of {Game} {Design}}
+}
+
+@Article{Schulze2003,
+  Title                    = {A new monotonic and clone-independent single-winner election method},
+  Author                   = {Schulze, Markus},
+  Journal                  = {Voting matters},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {9--19},
+  Volume                   = {17},
+
+  Urldate                  = {2015-07-24}
+}
+
+@Article{Shannon2001,
+  Title                    = {A mathematical theory of communication},
+  Author                   = {Shannon, Claude Elwood},
+  Journal                  = {ACM SIGMOBILE Mobile Computing and Communications Review},
+  Year                     = {2001},
+  Number                   = {1},
+  Pages                    = {3--55},
+  Volume                   = {5}
+}
+
+@Article{Shannon1950,
+  Title                    = {Programming a {Computer} for {Playing} {Chess}},
+  Author                   = {Shannon, Claude E.},
+  Journal                  = {Philosopical Magazine},
+  Year                     = {1950},
+
+  Month                    = mar,
+  Number                   = {314},
+  Volume                   = {41},
+
+  Series                   = {7},
+  Urldate                  = {2015-10-29}
+}
+
+@Misc{Thompson2000,
+  Title                    = {Defining the {Abstract}},
+
+  Author                   = {Thompson, J. Mark},
+  Month                    = jul,
+  Year                     = {2000},
+
+  Url                      = {http://www.thegamesjournal.com/articles/DefiningtheAbstract.shtml},
+  Urldate                  = {2014-09-30}
+}
+
+@InProceedings{Vargas2014,
+  Title                    = {A systematic mapping study on serious game quality},
+  Author                   = {Vargas, Juan A. and García-Mundo, Lilia and Genero, Marcela and Piattini, Mario},
+  Booktitle                = {Proceedings of the 18th {International} {Conference} on {Evaluation} and {Assessment} in {Software} {Engineering}},
+  Year                     = {2014},
+  Pages                    = {15},
+  Publisher                = {ACM}
+}
+
+@Misc{Warman2015,
+  Title                    = {The {Global} {Games} {Market}: {Trends}, {Market} {Data} and {Opportunities}},
+
+  Author                   = {Warman, Peter},
+  HowPublished             = {T11 Global Mobile Data Summit Presentation},
+  Month                    = sep,
+  Year                     = {2015},
+
+  Address                  = {Beijing},
+  Url                      = {http://www.newzoo.com/wp-content/uploads/2011/06/Newzoo_T11_Beijing_FINAL_Public.pdf},
+  Urldate                  = {2015-10-31}
+}
+
+@Article{Yannakakis2013,
+  Title                    = {Player modeling},
+  Author                   = {Yannakakis, Georgios N. and Spronck, Pieter and Loiacono, Daniele and André, Elisabeth},
+  Journal                  = {Dagstuhl Follow-Ups},
+  Year                     = {2013},
+  Volume                   = {6}
+}
+
+@InProceedings{Zagal2008,
+  Title                    = {The game ontology project: {Supporting} learning while contributing authentically to game studies},
+  Author                   = {Zagal, José P. and Bruckman, Amy},
+  Booktitle                = {Proceedings of the 8th international conference on {International} conference for the learning sciences-{Volume} 2},
+  Year                     = {2008},
+  Pages                    = {499--506},
+  Publisher                = {International Society of the Learning Sciences},
+
+  Shorttitle               = {The game ontology project},
+  Urldate                  = {2016-02-11}
+}
+
+@comment{jabref-meta: groupsversion:3;}
+
+@comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:Design books, game definition\;0\;Koster2013\;Schell20
+14\;;
+1 ExplicitGroup:market\;0\;Warman2015\;;
+1 ExplicitGroup:Game quality evaluation\;0\;Bateman2015\;Browne2008\;B
+rowne2010\;Browne2012\;Hunicke2004\;;
+}
+
