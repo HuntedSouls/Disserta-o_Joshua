@@ -6,17 +6,21 @@ The sole purpose of ANOVA is to test the hypothesis that from different group of
 
 \subsection{Using ANOVA}
 
-Using the ANOVA test require to first test an important hypothesis of the model. The variances of the residues must be equal for the one-way test to work. Test results are displayed in \autoref{fig:anovatest}. With a precision of 95\% the variances are equal and the model can be used. This is due to the p-value being above the confidance interval for both methods of testing. 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=\textwidth]{Images/ANOVA/ANOVATESTENG.png}
-    \caption{}
-    \label{fig:anovatest}
-\end{figure}
+As with any model, we need to be inside it's constraints to be able to use it. One-way ANOVA has only one crucial constraint, the variances of the residues must be equal. Testing it, with a proper method, is very simple and provide a probabilistic answer. Using a standard significance level of $\alpha = 0.05$provide a good perspective on the similarity of the variances.
 
+Using equal variances test in our data provided us with a 95,8\% of certainty that the variances are equal, according to the multiple comparisons test. This test takes into account the intervals of each sample variances. When they do not overlap there is a significant difference in the variances. Levene's test provided a P-Value of 0,971, meaning there is a 97,1\% chance of the variances being equal.
+
+Assured now that we can use one-way ANOVA by using two different tests and producing a positive result on both of them. Although a probabilistic result, over 95\% chance is more than enough to justify using the test on this work. 
 
 
 \subsection{Analyzing the output}
 
+Completing the analysis provided plenty of information regarding our study. First and foremost the model did not refute the hypothesis that the averages are equal. Meaning that both groups of subjects have no meaningful differences in their average answers. Therefore, there is evidence that our initial guess is correct. 
 
-%\includegraphics[width=\textwidth]{Images/ANOVA/ANOVARESULT.png}
+It also allows us to look at the data of both groups together. That is, to average all the answers without concern for the group it came from. Allowing us to present a more trustworthy average value for each dynamic. 
+
+\input{Images/Tables/AnovaResultTables.tex}
+
+Raw results of the test are shown in \ref{tab:AnalVar}. Those results have many parts, the main result of the model calculations and the model adequacy measurements it also shows some info regarding the data. Calculations of the model under the Analysis of Variance shows us the calculations of the sums of squares and sum of means squares. With them it evaluates the F- Value and P-Value which does not reject the null hypothesis, as the p-value is way over our alpha. Adequacy is shown as model summary at \ref{tab:ModelSum}, S is the distance between the data and model, R2 is the percentage of variability in the results presented by the model.
+
+Model summary shows an almost perfect result, meaning that this data fit perfectly in the model. This rises a few questions as one should doubt whenever data fit perfectly. What lies in doubt here is if the model taught us anything useful at all, we used a model which assumes that the populations produces equal results and tries to prove the opposite. In this situation it could not, because the data fit to the model and it was really similar. What would happen if it was the other way around, that is, using a model that assumed data to be significantly different? Such questions and their possible answers are out of this work's scope, therefore we leave them to future works.

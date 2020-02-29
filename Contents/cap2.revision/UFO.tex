@@ -4,7 +4,7 @@ If the objective is to engineer a ontology there are many ways to take on this c
 
 Before delving deeper in UFO modeling specifications and concepts it is important to expose the perspective it uses to model the world. First is necessary to understand what are endurant and perdurant. Such concepts are introduced and studied in philosophy. They divide the being, or that which exists, in two possibilities, either it is a endurant or a perdurant. The former is a being that exists in time, it can be analyzed independently of the time. The latter is a beign which happens over time, and it needs that time-span to exists, thus is not independent of it. In a more simplistic manner one can say that perdurant are events and endurants are everything else. 
 
-UFO or Universal Foundational Ontology created by \cite{guizzardi_ontological_2005}, is one of the most complete and used foundational ontologies in computer sciences. It leans on a heavy philosophical background and precise logical structure to provide a most complete modeling language. It is divided into different specifications UFO-a for endurants and UFO-b for perdurants. This work utilizes UFO-a because it is an ontology of an endurant and does not use UFO-b specifications. As such it is not thoroughly explained neither of them and this section focus on UFO-a only. whenever for simplicity whenever it is written UFO it is addressing UFO-a only.
+UFO or Universal Foundational Ontology created by \cite{guizzardi_ontological_2005}, is one of the most complete and used foundational ontologies in computer sciences. It leans on a heavy philosophical background and precise logical structure to provide a most complete modeling language. It is divided into different specifications UFO-a for endurants and UFO-b for perdurants. This work utilizes UFO-a because it is an ontology of an endurant and does not use UFO-b specifications. As such this section focus on UFO-a only. For simplicity whenever it is written UFO it is addressing UFO-a only.
 
 \subsection{The Universal}
 
@@ -12,11 +12,21 @@ Central concept of the UFO is that of an \textit{universal}, it is the common pr
 
 There are diverse types of universals which are classified according to how they deliver meaning to an individual. The first classification to be remarked is the distinction between sortal and dispersive. `` ... a Sortal Universal, which provides a \textit{principle of individuation} and \textit{identity} to the particulars it collects'' \citep{guizzardi_ontological_2005}. A dispersive universal embrace many concepts with different identities and thus do not convey a principle of individuation for its instances.
 
+Sortal is a term coined by John Locke in \cite{locke1841essay}. A technical philosophical term which was further developed by other authors. This notion is central to the discussion of things. A sortal has three main characteristics according to \cite{sep-sortals}:
+
+\begin{itemize}
+    \item Tells us what the essence of a thing is
+    \item Tells us how to count things of that kind, which requires knowing which things are different and which are the same
+    \item Tells us when something continues to exist, and when it goes out of existence
+\end{itemize}
+
+Thus a sortal is what individualizes different things and specifies. Allowing us to discuss about those things accounting for all its proprieties. It answer the question of ``What is it?''. In other words sortals define the ipseity of things.
+
 Rigidity of an universal provides another differentiation quality. ``A rigid universal is one that applies to its instances necessarily, i.e. in every possible world"\citep{guizzardi_ontological_2005}. For example, if there is a universal for \textit{Man} which specifies \textit{Person} in any possible world a given real person is identified by the person concept. While if it is a man it provides further identification, it is not a woman, and it remains a man in every possible world. An universal can also be \textit{non-rigid} which is the logical negation of rigid or \textit{anti-rigid} which is a more constraint form of non-rigid.
 
 A universal which does not apply necessarily to at least one of its instances is non-rigid. \textit{Seatable} provides a nice example, suppose its instances are a given chair and a crate. The chair is necessarily seatable in every world whilst the crate can become unsteable and still be the same crate. Anti-rigid restricts that for every instance of the universal it must exist a world where it does not apply to that instance. Following the person example, a given man could be specified by the universal \textit{Child}, but it is only a child in his early years of life, in all other worlds he is no longer a child but a adult or elder.
 
-Upon this classification \citeauthor{guizzardi_ontological_2005} brought together a typology for universals. This typology classifies and name the types of possible universals in UFO. This structure is depicted in \autoref{fig:Univ_diag}, and each of its leaves is a final classification for universals which are very important concepts for conceptual modeling. Those are defined and explained in the remainder of this section.
+Upon this classification \citeauthor{guizzardi_ontological_2005} brought together a typology for universals. This typology classifies and name the types of possible universals in UFO. This structure is depicted in \autoref{fig:Univ_diag}. Each of its leaves is a final classification for universals which are very important concepts for conceptual modeling. Those are defined and explained in the remainder of this section.
 
 \input{Images/UniversalDiagram.tex}
 
@@ -40,7 +50,7 @@ Mereology is a very important component of ontologies. It is the theory which re
 
 Defining parts and wholes in a very simple way may seem easy. Wholes are any concepts which has one or more parts and the concepts that together make up another one are parts. But this is not quite true for UFO, as it presents a \textit{principle of unity} in its mereology. For this principle to hold the parts of a whole need to be related between themselves, not only to the whole. Another diferentiation of this mereology is the existance of \textit{secondary characteristics of parts}. This defines the role a part play within the aggregate it belongs, i.e whether objects can share parts, or if an object can only exists if an specific part exists. 
 
-Following is a further explanations of those important notions pertaining the theory of parts and wholes of UFO
+Following is a further explanations of those important notions pertaining the theory of parts and wholes of UFO.
 
 \subsubsection{Principle of unity}
 
