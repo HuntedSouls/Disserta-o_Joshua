@@ -18,8 +18,12 @@
 \usepackage{graphicx}
 \usepackage{courier}
 \usepackage{todonotes}
+
 \usepackage{booktabs}
 
+% não deixa figura mudar de seção e
+% habilita o commando \FloatBarrier
+\usepackage[section]{placeins}
 
 %subcaption and subfigure
 \usepackage{subfig}
@@ -67,12 +71,17 @@
 %\addto{\captionsenglish}{\renewcommand{\bibname}{Referências Bibliográficas}}
 
 
+% to make editor notes
+%\usepackage[show]{ed}
+
 \makelosymbols
 \makeloabbreviations
 
 \pgfplotsset{compat=1.12}
 
 \begin{document}
+
+
 	\title{Developing an ontology of games based on the MDA framework}
 	\foreigntitle{Desenvolvendo uma ontologia de jogos fundamentada no framework MDA}
 	\author{Joshua Silveira}{Kritz}
@@ -85,6 +94,9 @@
 	%\examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
 	\department{PESC}
 	\date{02}{2016}
+	
+	
+	
 	
 	\keyword{games}
 	\keyword{game models}
