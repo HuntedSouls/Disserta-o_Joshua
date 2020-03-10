@@ -79,11 +79,35 @@
 
 \pgfplotsset{compat=1.12}
 
+%%%%%%%%%%%%%%%% ROUBADO DO MANGELI
+% Citacao direta com mais de 3 linhas - ABNT NBR 10520/2002 - 5.3
+\newcommand{\ABNTEXfontereduzida}{\footnotesize}
+\newlength{\ABNTEXcitacaorecuo}% recuo de 4 cm da margem esquerda
+% \ifthenelse{\equal{\ABNTEXistwocolumn}{true}}{%
+%   \setlength{\ABNTEXcitacaorecuo}{1.8cm}
+% }{% else
+%   \setlength{\ABNTEXcitacaorecuo}{4cm}
+% }
+\setlength{\ABNTEXcitacaorecuo}{4cm}
+
+\newenvironment*{citacao}[1][default]{%
+   \list{}%
+   \ABNTEXfontereduzida%
+   \addtolength{\leftskip}{\ABNTEXcitacaorecuo}%
+   \item[]%
+   %\begin{singlespacing}%
+   \singlespacing
+   \ifthenelse{\not\equal{#1}{default}}{\itshape\selectlanguage{#1}}{}%
+ }{%
+   %\end{singlespacing}%
+   \endlist}%
+% ---
+
 \begin{document}
 
 
-	\title{Developing an ontology of games based on the MDA framework}
-	\foreigntitle{Desenvolvendo uma ontologia de jogos fundamentada no framework MDA}
+	\title{Developing an ontology of board games based on the MDA framework}
+	\foreigntitle{Desenvolvendo uma ontologia de jogos de tabuleiro fundamentada no framework MDA}
 	\author{Joshua Silveira}{Kritz}
 	\advisor{Prof.}{Geraldo Bonorino}{Xexéo}{D.Sc.}
 	%\advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
