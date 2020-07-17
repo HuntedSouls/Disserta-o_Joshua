@@ -1,16 +1,16 @@
 \section{Statistical analysis of survey answers}
 
-ANOVA, also known as, analysis of variance, was used to test the hypothesis that the different surveyed groups had different opinions. A similar use to this work` approach is found in \cite{ismail2007organizational}. They used ANOVA to analyze the results of a survey with three different groups of knowledge. This analysis has only two groups, but it not imply in a big change to the model.
+ANOVA, also known as, analysis of variance, was used to test the hypothesis that the different surveyed groups had different opinions. A similar use to this work` approach is found in \cite{ismail2007organizational}. They used ANOVA to analyze the results of a survey with three different groups of knowledge. This analysis has only two groups, but it does not imply in a big change to the model.
 
-The sole purpose of ANOVA is to test the hypothesis that from different group of samples for the same factor have a statistically significant difference in results. This will give the information needed to establish the correct average values for the concepts. Subsequently determining the dynamics which will compose OntoBG-D.
+The sole purpose of ANOVA is to test the hypothesis that different groups of samples for the same factor have a statistically significant difference in results. This will give the information needed to establish the correct average values for the concepts. Subsequently determining the dynamics which will compose OntoBG-D.
 
 \subsection{Using ANOVA}
 
-As with any model, we need to be inside it's constraints to be able to use it. One-way ANOVA has only one crucial constraint, the variances of the residues must be equal. Testing it, with a proper method, is very simple and provide a probabilistic answer. Using a standard significance level of $\alpha = 0.05$provide a good perspective on the similarity of the variances.
+As with any model, we need to be inside it's constraints to be able to use it. One-way ANOVA has only one crucial constraint, the variances of the residues must be equal. Testing it, with a proper method, is very simple and provide a probabilistic answer. Using a standard significance level of $\alpha = 0.05$ provide a good perspective on the similarity of the variances.
 
 Using equal variances test in our data provided us with a 95,8\% of certainty that the variances are equal, according to the multiple comparisons test. This test takes into account the intervals of each sample variances. When they do not overlap there is a significant difference in the variances. Levene's test provided a P-Value of 0,971, meaning there is a 97,1\% chance of the variances being equal.
 
-Assured now that we can use one-way ANOVA by using two different tests and producing a positive result on both of them. Although a probabilistic result, over 95\% chance is more than enough to justify using the test on this work. 
+Using two different tests and producing a positive result on both of them, we are now assured that we can use one-way ANOVA. Albeit a probabilistic result, over 95\% chance is more than enough to justify using the test in this work. 
 
 
 \subsection{Analyzing the output}
@@ -21,6 +21,8 @@ It also allows us to look at the data of both groups together. That is, to avera
 
 \input{Images/Tables/AnovaResultTables.tex}
 
-Raw results of the test are shown in \ref{tab:AnalVar}. Those results have many parts, the main result of the model calculations and the model adequacy measurements it also shows some info regarding the data. Calculations of the model under the Analysis of Variance shows us the calculations of the sums of squares and sum of means squares. With them it evaluates the F- Value and P-Value which does not reject the null hypothesis, as the p-value is way over our alpha. Adequacy is shown as model summary at \ref{tab:ModelSum}, S is the distance between the data and model, R2 is the percentage of variability in the results presented by the model.
+Raw results of the test are shown in \ref{tab:AnalVar}. Those results have many parts, the main result of the model calculations and the model adequacy measurements it also present some info regarding the data. Resulting calculations of the model under the Analysis of Variance, shows us the value of the sums of squares and sum of means squares. With them the model evaluates the F- Value, of $0,83$, and P-Value, of $0,366$. Both of them do not reject the null hypothesis of the model, as the p-value is way over our alpha. 
+
+Adequacy is shown as model summary at \ref{tab:ModelSum}, S is the distance between the data and model, R2 is the percentage of variability in the results presented by the model.
 
 Model summary shows an almost perfect result, meaning that this data fit perfectly in the model. This rises a few questions as one should doubt whenever data fit perfectly. What lies in doubt here is if the model taught us anything useful at all, we used a model which assumes that the populations produces equal results and tries to prove the opposite. In this situation it could not, because the data fit to the model and it was really similar. What would happen if it was the other way around, that is, using a model that assumed data to be significantly different? Such questions and their possible answers are out of this work's scope, therefore we leave them to future works.

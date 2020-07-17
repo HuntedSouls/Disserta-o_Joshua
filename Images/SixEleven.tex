@@ -50,8 +50,9 @@
 \node[squarednode2]  (inst7) [below of = inst6, node distance=1cm, anchor=north] {Competition};
 \node[squarednode2]  (inst8) [below of = inst7, node distance=1cm, anchor=north] {Protection/Care};
 \node[squarednode2]  (inst9) [below of = inst8, node distance=1cm, anchor=north] {Curiosity};
-\node[squarednode2]  (inst10) [below of = inst9, node distance=1cm, anchor=north] {Communication};
-\node[squarednode2]  (inst11) [below of = inst10, node distance=1cm, anchor=north] {Color Appreciation};
+\node[squarednode2]  (inst11) [below of = inst9, node distance=1cm, anchor=north] {Color Appreciation};
+\node[squarednode2]  (inst10) [below of = inst11, node distance=1cm, anchor=north] {Communication};
+
 
 % Arrows Emo to Inst
 \path[-latex, black, very thick] (emo1.east) edge  coordinate[midway](c_to_m) (inst1.west);
@@ -99,8 +100,30 @@
 
 % Inter concepts
 % Emotions
-%\path[-latex, dashed, black, very thick] (emo3.west) edge  coordinate[midway](c_to_m) (emo6.east);
-%\draw [->, line width=0.5mm, dotted] (emo3.west) -- (emo3.west.x-1,emo3.west.y) -- (emo6.west.x-1,emo6.west.y) (emo6.west);
+
+\draw [->, line width=0.5mm, dotted] (emo3.west) -- ([xshift= -1cm]emo3.west) -- ([xshift=-1cm]emo6.west) -- (emo6.west);
+
+%Instincts
+
+\draw [->, line width=0.5mm, dotted] (inst1.east) -- ([xshift= 0.5cm]inst1.east) -- ([xshift=0.5cm]inst5.east) -- (inst5.east);
+
+\draw [->, line width=0.5mm, dotted] (inst2.east) -- ([xshift= 0.75cm]inst2.east) -- ([xshift=0.75cm,yshift = 0.2cm]inst9.east) -- ([yshift = 0.2cm]inst9.east);
+
+\draw [->, line width=0.5mm, dotted] (inst2.east) -- ([xshift= 0.75cm]inst2.east) -- ([xshift=0.65cm]inst8.east) -- (inst8.east);
+
+\draw [->, line width=0.5mm, dotted] (inst3.south)  -- (inst4.north);
+
+\draw [->, line width=0.5mm, dotted] (inst4.south)  -- (inst5.north);
+
+\draw [->, line width=0.5mm, dotted] (inst6.north)  -- (inst5.south);
+
+\draw [->, line width=0.5mm, dotted] (inst5.east) -- ([xshift= 0.25cm]inst5.east) -- ([xshift=0.25cm]inst7.east) -- (inst7.east);
+
+\draw [->, line width=0.5mm, dotted] (inst9.east) -- ([xshift= 1cm]inst9.east) -- ([xshift=01cm]inst3.east) -- (inst3.east);
+
+\draw [->, line width=0.5mm, dotted] (inst11.north)  -- (inst9.south);
+
+\draw [<->, line width=0.5mm, dotted] (inst10.east) -- ([xshift= 1.25cm]inst10.east) -- ([xshift=1.25cm]inst2.east) -- (inst2.east);
 
     \endscope
 \end{tikzpicture}
